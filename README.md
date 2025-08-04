@@ -1,6 +1,6 @@
 # 🔗 LinkedIn Scraper — Connection & Profile Automation
 
-This project allows you to **automatically extract your LinkedIn connections** and then **scrape profile details** (name, headline, and job experience) from each one in a safe, chunked, and resumable manner using Puppeteer.
+This project allows you to **automatically extract your LinkedIn connections** and then **scrape profile details** (name, headline, and job experience) from each one in a safe and resumable manner using Puppeteer.
 
 ---
 
@@ -11,7 +11,7 @@ This project allows you to **automatically extract your LinkedIn connections** a
 | `.env`                 | Stores your LinkedIn login credentials           |
 | `connectionScrapper.js`| Fetches your LinkedIn connections                | 
 | `profileScraper.js`    | Scrapes profile data in chunks                   |
-| `connections*.json`    | Connection URLs saved                            |
+| `connections.json`    | Connection URLs saved                            |
 | `scraped_profiles.json`| Final scraped output of profile details          |
 
 ---
