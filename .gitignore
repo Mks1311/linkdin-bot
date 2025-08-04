@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build directories
+dist/
+build/
+.next/
+.out/
+.vite/
+
+# Dependency directories for frontend frameworks
+.bower_components/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+*.tar.gz
+.pnpm-debug.log
+.cache/
+.eslintcache
+
+# Optional: lockfiles
+# Uncomment if you want to ignore lock files (not usually recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
