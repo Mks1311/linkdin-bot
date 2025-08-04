@@ -43,13 +43,13 @@ node connectionScrapper.js
 
 Use the profile scraper to scrape information from the connection URLs. It will:
 
-## 1. Load connections.json
+#### 1. Load connections.json
 
-## 2. Scrape up to 50 profiles per run (customizable)
+#### 2. Scrape up to 50 profiles per run (customizable)
 
-## 3. Resume where it left off (avoids duplicates)
+#### 3. Resume where it left off (avoids duplicates)
 
-## 4. Save results in scraped_profiles.json
+#### 4. Save results in scraped_profiles.json
 
 ```bash
 node profileScraper.js
