@@ -110,7 +110,7 @@ async function main() {
   );
 
   await loginLinkedIn(page);
-  await setTimeout(10000); // Pause for CAPTCHA / 2FA
+  await setTimeout(30000); // Pause for CAPTCHA / 2FA
 
   const results = [...existingProfiles];
 
