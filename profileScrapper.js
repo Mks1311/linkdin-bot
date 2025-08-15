@@ -6,7 +6,7 @@ const path = require('path');
 
 const INPUT_FILE = './connections.json';
 const OUTPUT_FILE = './scraped_profiles.json';
-const PROFILES_PER_SESSION = 50;
+const PROFILES_PER_SESSION = 30;
 const MIN_DELAY = 5000;
 const MAX_DELAY = 10000;
 

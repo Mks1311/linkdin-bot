@@ -1,0 +1,962 @@
+[
+  {
+    "url": "https://www.linkedin.com/in/ajay-kumar-358758227/",
+    "name": "Ajay Kumar",
+    "eligible": false,
+    "message": "Hello Ajay, I'm Manish, a Software Developer at GunMade. I came across your profile and am impressed with your frontend skills. I'm currently exploring new opportunities and would appreciate the chance to connect. My resume is available here: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:20:27.980Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vishal-yadav-44a6b524b/",
+    "name": "Vishal Yadav",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:29.484Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/jayantgoel07/",
+    "name": "Jayant Goel",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:29.485Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/anuradha-adhikari/",
+    "name": "Anuradha Adhikari",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:20:30.319Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/riddhi-keshari-268070378/",
+    "name": "Riddhi Keshari",
+    "eligible": false,
+    "message": "Unfortunately, I cannot request a referral from this person based on their current profile.",
+    "processedAt": "2025-08-15T05:20:32.877Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/gaurav-sarang223/",
+    "name": "Gaurav Sarang",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:34.381Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/andriipetlovanyi/",
+    "name": "Andrii Petlovanyi",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:34.383Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/abhiraj-singh-127924246/",
+    "name": "Abhiraj Singh",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:34.401Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/volodymyr-kostiuk-a35a16235/",
+    "name": "Volodymyr Kostiuk",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:34.416Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/svitlana-demediuk/",
+    "name": "Svitlana Demediuk",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:34.429Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vitaliy-savitskiy-241358308/",
+    "name": "Vitaliy Savitskiy",
+    "eligible": true,
+    "message": "Hi Vitaliy, I'm Manish, a Software Developer at GunMade. I noticed your experience as a QA Engineer and thought you might be a good connection to reach out to. I'm currently exploring new opportunities and hoping to get referrals. Would you be open to helping? My resume is here: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:20:35.615Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/roman-pryimuk/",
+    "name": "Roman Pryimuk",
+    "eligible": true,
+    "message": "Hi Roman, I'm Manish, a Software Developer at GunMade. I noticed your experience as a Fullstack Engineer and thought you might be a good connection. I'm currently exploring new opportunities and would appreciate it if you'd be open to providing a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:20:38.564Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/nat%C3%A1lia-pi%C5%88kov%C3%A1-a13b23251/",
+    "name": "Natália Piňková",
+    "eligible": true,
+    "message": "Hi Natália, I'm Manish, a Software Developer at GunMade. I'm actively looking for new opportunities and noticed you're a recruiter at Generali Slovensko. I'd appreciate the chance to connect and explore if any roles align with my skills. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:20:41.588Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/illia-lobach-90254a265/",
+    "name": "Illia Lobach",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:43.091Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/andrii-peliak-2490b629/",
+    "name": "Andrii Peliak",
+    "eligible": true,
+    "message": "Hi Andrii, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your extensive experience as a Software Engineer with Python and Node.js. I'm currently exploring new opportunities and would be grateful if you might be open to providing a referral if you think my background aligns with any roles you're aware of. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:20:44.762Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/artem-obodinskiy-248816331/",
+    "name": "Artem Obodinskiy",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:46.266Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/nikita-makushin/",
+    "name": "Nikita Makushin",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:46.269Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/navdeep-jangir-695b80374/",
+    "name": "Navdeep Jangir",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:46.289Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/volodymyr-hankevych-b68a37316/",
+    "name": "Volodymyr Hankevych",
+    "eligible": true,
+    "message": "Hi Volodymyr, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience with Next.js, React, and Node. I'm currently exploring new opportunities and would appreciate it if you might be able to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:20:47.633Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/tania-babych/",
+    "name": "Tania Babych",
+    "eligible": true,
+    "message": "Hi Tania, my name is Manish, and I'm a Software Developer at GunMade. I came across your profile and noticed your experience. I'm currently exploring new opportunities and would appreciate it if you might be able to refer me to any relevant openings in your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:20:50.603Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/marek-fiala/",
+    "name": "Marek Fiala",
+    "eligible": true,
+    "message": "Hi Marek, I hope you’re doing well. My name is Manish, and I'm a Software Developer at GunMade. I noticed you're the Founder of Tymosia and have extensive experience in leadership roles. I'm currently exploring new opportunities and believe my skills and experience could be a great fit for various companies. Would you be open to providing a referral or connecting me with someone who could? My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:20:53.774Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/%D1%88%D0%B0%D1%85%D0%BD%D0%BE-%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-683806280/",
+    "name": "Шахно Дмитро",
+    "eligible": true,
+    "message": "Hi Шахно, I'm Manish, a Software Developer at GunMade. I'm exploring new opportunities and came across your profile. Given your extensive experience in sales management, I was hoping you might be able to offer some advice or connections as I navigate my job search. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:20:56.744Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/varad-gupta-027743232/",
+    "name": "Varad Gupta",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:58.247Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vanshika-agarwal-44a688370/",
+    "name": "Vanshika Agarwal",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:20:58.249Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vamshit04/",
+    "name": "Vamshi Thallapalli",
+    "eligible": false,
+    "message": "I'm sorry, but this person's experience does not meet the referral criteria.",
+    "processedAt": "2025-08-15T05:20:59.204Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vansh-garg-37043b307/",
+    "name": "Vansh Garg",
+    "eligible": false,
+    "message": "While I appreciate your consideration, I don't believe I am the right person to provide a referral at this time. Best of luck with your job search, Manish! My resume: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:21:02.069Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/mahi-maheshwari-32b082257/",
+    "name": "Mahi Maheshwari",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:21:04.448Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/kartikey-singh-baghel-39a475377/",
+    "name": "Kartikey singh Baghel",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:05.951Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/siddheshparwade/",
+    "name": "Siddhesh Parwade",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:05.953Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/abhinandan-kumar-2384a7310/",
+    "name": "Abhinandan Kumar",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:05.974Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vishal-pal-71b6481a6/",
+    "name": "Vishal Pal",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:05.992Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/kidus-adane-a8ba55b0/",
+    "name": "Kidus Adane",
+    "eligible": true,
+    "message": "Hi Kidus, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade. I'm currently exploring new opportunities and came across your profile. Given your extensive freelance experience, I was wondering if you might be able to connect me with anyone in your network who might be hiring for software development roles. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:21:07.394Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/arun-malge-88aba434a/",
+    "name": "Arun Malge",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:08.896Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/devang-kartik-14758923a/",
+    "name": "Devang kartik",
+    "eligible": false,
+    "message": null,
+    "processedAt": "2025-08-15T05:21:16.612Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/veronika-malick%C3%A1-916a56191/",
+    "name": "Veronika Malická",
+    "eligible": true,
+    "message": "Hi Veronika, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade, a remote US-based startup. I'm exploring new opportunities and came across your profile. I'm impressed with your HR experience, and I was wondering if you might be able to offer any advice or referrals. My resume can be found here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:21:19.580Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/priyesshrai/",
+    "name": "Priyessh Rai",
+    "eligible": true,
+    "message": "Hi Priyessh, I'm Manish, a Software Developer at GunMade, a US-based startup. I came across your profile and noticed your experience as a Frontend Developer at Wizards, particularly with React and Next.js. I'm currently exploring new opportunities and would love to connect and learn more about your experience at Wizards. I'm also looking for referrals, and I was hoping you might be able to help. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:21:38.116Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/harsh-saxena-04910934b/",
+    "name": "Harsh Saxena",
+    "eligible": true,
+    "message": "Hi Harsh, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience with Node.js and Spring Boot, which is impressive. I'm currently exploring new opportunities and was hoping you might be able to offer a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:21:41.042Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/andrii-lymarenko-a8b297122/",
+    "name": "Andrii Lymarenko",
+    "eligible": true,
+    "message": "Hi Andrii, my name is Manish and I'm a Software Developer at GunMade. I came across your profile and noticed your extensive experience as a Game Mathematician. I'm currently exploring new opportunities and was hoping you might be able to offer some advice or connections. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:21:43.884Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/satwik-mohanty-019916281/",
+    "name": "Satwik Mohanty",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:45.387Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/mohd-asif-khan-32a374246/",
+    "name": "Mohd Asif Khan",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:45.389Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/atul-thakur-038b24332/",
+    "name": "Atul Thakur",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:21:45.409Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shubhkesh/",
+    "name": "Shubham Kesharwani",
+    "eligible": true,
+    "message": "Hi Shubham, I came across your profile and noticed your experience as a Software Engineer at Deutsche Telekom Digital Labs. I'm also a Software Developer with experience at GunMade and am currently exploring new opportunities. Would you be open to a quick chat about your experience and potentially providing a referral? My resume is available here: https://bit.ly/4fpoxd5 Thanks!",
+    "processedAt": "2025-08-15T05:21:46.813Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/coderashwini/",
+    "name": "Ashwini Kumar Pandey",
+    "eligible": true,
+    "message": "Hi Ashwini, I'm Manish, a Software Developer at GunMade, a US-based startup. I'm exploring new opportunities and noticed your experience at Accenture. I'd love to connect and chat briefly about your experience and any potential referral opportunities at Accenture or elsewhere. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:21:49.992Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/iin-anggreani-sihotang998/",
+    "name": "Iin Anggreani Sihotang",
+    "eligible": true,
+    "message": "Hi Iin Anggreani, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade, a remote US-based startup. I came across your profile and noticed your experience at Vertex Photonics. I'm currently exploring new opportunities and was wondering if you might be open to providing a referral at your company or elsewhere in your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:21:53.169Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/rajratanrajput/",
+    "name": "Rajratan Rajput",
+    "eligible": false,
+    "message": "I am sorry, I cannot generate a referral message based on the user's profile.",
+    "processedAt": "2025-08-15T05:21:55.756Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/008abhishek/",
+    "name": "Abhishek Pandey",
+    "eligible": true,
+    "message": "Hi Abhishek, my name is Manish and I'm a Software Developer at GunMade. I came across your profile and noticed your experience at Netradyne and TCS. I'm currently exploring new opportunities and would love to connect and learn more about your experience. I've attached my resume for your review: https://bit.ly/4fpoxd5. Would you be open to a quick chat?",
+    "processedAt": "2025-08-15T05:21:59.106Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ankit-mishra-707871218/",
+    "name": "Ankit Kumar Mishra",
+    "eligible": true,
+    "message": "Hi Ankit, I hope this message finds you well. My name is Manish, and I'm currently a Software Developer at GunMade. I came across your profile and noticed your experience as a Software Engineer at Impetus and your previous role at Crio.Do. I'm actively exploring new opportunities, and I was hoping you might be willing to provide a referral if you think my experience aligns with any open roles at your company or in your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:02.280Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/mageshwari-gnanasekkar-822507248/",
+    "name": "Mageshwari Gnanasekkar",
+    "eligible": true,
+    "message": "Hi Mageshwari, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience as a Full Stack Developer at Optum. I'm currently exploring new opportunities and would appreciate it if you might be able to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:05.301Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/saikrishnachippa4444/",
+    "name": "Saikrishna Chippa",
+    "eligible": false,
+    "message": "Hi Saikrishna, I'm Manish, a Software Developer at GunMade. I'm exploring new opportunities and came across your profile. I'm impressed with your MERN stack experience. Would you be open to a quick chat about your experience? My resume is available here: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:22:08.220Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/towkeer12-sofi/",
+    "name": "Towkeer Ahmad",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:22:09.723Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/gautam-markande-65090a1b9/",
+    "name": "Gautam Markande",
+    "eligible": true,
+    "message": "Hi Gautam, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience as a Frontend Developer at Razorpay. I'm currently exploring new opportunities and would be grateful if you'd be open to a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:22:11.013Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ritu-saini-974a70145/",
+    "name": "Ritu Saini",
+    "eligible": true,
+    "message": "Hi Ritu, my name is Manish. I'm a Software Developer at GunMade, a US-based startup, and I'm actively exploring new opportunities. I noticed you're a Software Development Engineer III at Adobe and thought your experience could be valuable. Would you be open to providing a referral? My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:13.954Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ivan-grinevich-a2693b21b/",
+    "name": "Ivan Grinevich",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:22:16.515Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/aman-jaiswal-405bb3244/",
+    "name": "Aman Jaiswal",
+    "eligible": false,
+    "message": "I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade. I'm actively looking for new opportunities and came across your profile. Given your experience, I was wondering if you might be able to offer any insights or connections. Here's a link to my resume: https://bit.ly/4fpoxd5. Thanks for your time and consideration.",
+    "processedAt": "2025-08-15T05:22:19.454Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/svetlana-karda%C5%A1-482504101/",
+    "name": "Svetlana Kardaš",
+    "eligible": true,
+    "message": "Hi Svetlana, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience in the gaming industry as a Game Design Mathematician, particularly your time at IGT PlayDigital. I'm currently exploring new opportunities and would appreciate it if you might be able to refer me to any relevant openings at your current company or other places you know. My resume can be found here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:22.467Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/christian-lance-695014152/",
+    "name": "Christian Lance",
+    "eligible": true,
+    "message": "Hi Christian, I'm Manish, a Software Developer at GunMade, a remote US-based startup. I came across your profile and am impressed with your experience in AI Engineering and your work with Langraph, RAG, and agentic engineering. I'm actively exploring new opportunities and would appreciate the chance to connect and see if you might be able to provide a referral at your company or elsewhere in the AI space. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:27.738Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/oleksandr-vovchenko-18564a92/",
+    "name": "Oleksandr Vovchenko",
+    "eligible": true,
+    "message": "Hi Oleksandr, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your extensive experience as a Game Mathematician. I'm currently exploring new opportunities and would be grateful if you might be able to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:30.418Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ihor-vinnik-a687a47a/",
+    "name": "Ihor Vinnik",
+    "eligible": true,
+    "message": "Hi Ihor, I'm Manish, a Software Developer at GunMade, a US-based startup. I came across your profile and noticed your extensive experience with Node.js. I'm currently exploring new opportunities and would appreciate it if you might be able to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:33.200Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/adam-olszowski-58984b1/",
+    "name": "Adam Olszowski",
+    "eligible": true,
+    "message": "Hi Adam, I'm Manish, a Software Developer at GunMade, and I've been following your work as a Game Mathematician at Relax Gaming. I'm currently exploring new opportunities and would appreciate it if you could provide a referral. My resume is available at https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:35.909Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/tejas-nahargadkar-4a1b771b6/",
+    "name": "Tejas Nahargadkar",
+    "eligible": true,
+    "message": "Hi Tejas, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience at Cisco and SanDisk. I'm currently exploring new opportunities and was hoping you might be willing to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:38.628Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shivamk001/",
+    "name": "Shivam Kesarwani",
+    "eligible": true,
+    "message": "Hi Shivam, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade, a US-based startup. I came across your profile and was impressed by your experience as a Full Stack Developer, especially your work at Kenscio. I'm currently exploring new opportunities and would appreciate it if you might be able to offer a referral at your company or other companies you think may be a fit. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:42.026Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/rohit139maurya/",
+    "name": "Rohit Maurya",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:22:43.528Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/kishlaya1999/",
+    "name": "Kishlaya Kesarwani",
+    "eligible": true,
+    "message": "Hi Kishlaya, my name is Manish. I'm a Software Developer at GunMade and came across your profile. I'm impressed with your work at Opsera, especially your experience with React. I'm currently exploring new opportunities and would be grateful if you'd be open to a quick chat about your experience and potentially providing a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:22:45.156Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/suhani-mishra12/",
+    "name": "SUHANI MISHRA",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:22:47.513Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/sakshim2903/",
+    "name": "Sakshi Maurya",
+    "eligible": true,
+    "message": "Hi Sakshi, I came across your profile and noticed your experience at Viasat. I'm Manish, a Software Developer at GunMade, and I'm exploring new opportunities. I'd appreciate it if you could take a look at my resume and let me know if you think I'd be a good fit for any open roles at your company or network. My resume link is: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:50.511Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/aditya-prakash07/",
+    "name": "Aditya Prakash",
+    "eligible": false,
+    "message": "I am not able to fulfill your request for a referral message for Aditya Prakash because he does not meet the criteria: at least 1 year of experience, is a recruiter, or holds a position such as founder or co-founder.",
+    "processedAt": "2025-08-15T05:22:53.199Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/aleksandar-popovic-66a25273/",
+    "name": "Aleksandar Popovic",
+    "eligible": true,
+    "message": "Hi Aleksandar, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience at IGT. I'm currently exploring new opportunities and would be grateful if you'd be willing to provide a referral if you think my skills align with any open roles at your company or within your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:56.027Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shweta-agrawal-03a278194/",
+    "name": "Shweta Agrawal",
+    "eligible": true,
+    "message": "Hi Shweta, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade. I noticed you're an Engineer at S&P Global and I'm currently exploring new opportunities. Would you be open to providing a referral? My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:22:59.011Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/dhanya-dwivedi/",
+    "name": "Dhanya Dwivedi",
+    "eligible": false,
+    "message": "Unfortunately, I can't create a personalized referral message for Dhanya Dwivedi. They are a student with limited professional experience. Best of luck with your job search!",
+    "processedAt": "2025-08-15T05:23:01.570Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/deepu-meena-4625592b1/",
+    "name": "Deepu Meena",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:03.073Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/aryanc19/",
+    "name": "Aryan Chaudhary",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:04.049Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/muhammad-aadil-proya/",
+    "name": "Muhammad Aadil Proya",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:05.552Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/johnvesslyalti/",
+    "name": "Johnvessly Alti",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:05.554Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/varun-seth-32492a23b/",
+    "name": "Varun Seth",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:06.376Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/utkarsh-sharma-816492324/",
+    "name": "Utkarsh Sharma",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:07.878Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vyom-dubey-b979952b5/",
+    "name": "Vyom Dubey",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:23:08.819Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/amaankhan41/",
+    "name": "Amaan Khan",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:23:11.223Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/yashaswinijain/",
+    "name": "Yashaswini Jain",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:23:13.683Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ritesh-kumar-maurya-144186265/",
+    "name": "RITESH KUMAR MAURYA",
+    "eligible": true,
+    "message": "Hi Ritesh, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience at AMD. I'm currently exploring new opportunities and would appreciate it if you might be able to refer me. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:23:31.754Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/themiteshverma/",
+    "name": "Mitesh Verma",
+    "eligible": true,
+    "message": "Hi Mitesh, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed you're working as a MERN Stack developer. I'm actively exploring new opportunities and was hoping you might be able to offer some advice or a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:23:34.533Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/bhavi-modanwal-14a18a274/",
+    "name": "Bhavi Modanwal",
+    "eligible": false,
+    "message": "Unfortunately, this person doesn't meet the criteria to be a suitable referral source.",
+    "processedAt": "2025-08-15T05:23:36.999Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/yashyp12/",
+    "name": "Yash Patil",
+    "eligible": false,
+    "message": "While I appreciate your interest, I don't think I'm the best person to provide a referral at this time. Best of luck with your job search! Here's my resume: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:23:39.696Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shreyansh-sahay-08au2004/",
+    "name": "Shreyansh Sahay",
+    "eligible": false,
+    "message": "N/A",
+    "processedAt": "2025-08-15T05:23:41.958Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shrikant-kushwaha-2a619b244/",
+    "name": "Shrikant Kushwaha",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:43.460Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/iram-shoukat-735018369/",
+    "name": "Iram Shoukat",
+    "eligible": true,
+    "message": "Hi Iram, I hope this message finds you well. My name is Manish, and I'm a Software Developer with GunMade. I'm currently exploring new opportunities and I'm reaching out to see if you might be able to provide a referral. Given your experience, I thought you might have some helpful insights. You can find my resume here: https://bit.ly/4fpoxd5. Thank you for your time and consideration!",
+    "processedAt": "2025-08-15T05:23:44.924Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vaibhav-kumar-90b480303/",
+    "name": "Vaibhav Kumar",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:46.428Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/abhay-pratap-singh-bbaa96256/",
+    "name": "Abhay Pratap Singh",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:46.429Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/karunanidhi-sharma-154465323/",
+    "name": "Karunanidhi Sharma",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:46.444Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/nandini-bhardwaj-8b0a74247/",
+    "name": "Nandini bhardwaj",
+    "eligible": true,
+    "message": "Hi Nandini, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience with Social Media Marketing at USC.KIIT and your work as a social activist at TPH. I'm currently exploring new opportunities and I was hoping you might be able to offer some guidance or potentially a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:23:48.046Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/priyanka-khasa/",
+    "name": "Priyanka Khasa",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:49.548Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/akshit-madan/",
+    "name": "Akshit Madan",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:49.550Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ravi-gunawat-b9b766332/",
+    "name": "Ravi Gunawat",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:23:49.566Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/anushree-chandra-b01720153/",
+    "name": "Anushree Chandra",
+    "eligible": true,
+    "message": "Hi Anushree, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade, a remote US-based startup. I noticed your experience at Scry AI and Areya Technologies, and I'm actively exploring new opportunities. Would you be open to a quick chat about your experience and any potential opportunities at Scry AI or your network? My resume is available here: https://bit.ly/4fpoxd5 Thanks!",
+    "processedAt": "2025-08-15T05:23:51.039Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/shivam-mishra-0a431931a/",
+    "name": "Shivam Mishra",
+    "eligible": true,
+    "message": "Hi Shivam, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience as a Data Analyst at HP and your work with Data Science and AI. I'm exploring new opportunities and was hoping you might be able to offer some insight or potentially a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time!",
+    "processedAt": "2025-08-15T05:23:53.833Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/moumita-bhattacharjee-4338712b4/",
+    "name": "Moumita Bhattacharjee",
+    "eligible": true,
+    "message": "Hi Moumita, I came across your profile and noticed your experience with HTML, CSS, JavaScript, and React.js. I'm Manish, a Software Developer at GunMade, and I'm currently exploring new opportunities. Given your skills, I was hoping you might be able to offer some insights or even a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:23:56.830Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/samikpandit/",
+    "name": "Samik Pandit",
+    "eligible": true,
+    "message": "Hi Samik, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience at Gateway Group and as a Co-Founder at Aaghaaz. I'm actively looking for new opportunities and would appreciate it if you'd be open to a quick chat about your experience and potentially provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:23:59.918Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/harshpal281515/",
+    "name": "HARSH PAL",
+    "eligible": false,
+    "message": "I am sorry, but Harsh Pal does not currently have enough experience to provide a useful referral for you at this time.",
+    "processedAt": "2025-08-15T05:24:02.392Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/asish-kr/",
+    "name": "Asish Kumar",
+    "eligible": false,
+    "message": "I am sorry, I cannot ask Asish for a referral, as he does not meet the minimum experience requirements.",
+    "processedAt": "2025-08-15T05:24:04.841Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/sampann-singh-aa4119352/",
+    "name": "Sampann Singh",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:06.343Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/rashmi-ranjan-behera-003b67275/",
+    "name": "Rashmi Ranjan Behera",
+    "eligible": false,
+    "message": "...",
+    "processedAt": "2025-08-15T05:24:07.103Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/devanshu-singh-150951275/",
+    "name": "Devanshu Singh",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:08.605Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/saikh-elahi-018822173/",
+    "name": "Saikh Elahi",
+    "eligible": true,
+    "message": "Hi Saikh, I'm Manish, a Software Developer at GunMade, and I came across your profile on LinkedIn. I noticed your experience with Vue, React, and Angular, which aligns with the skills I'm looking to leverage in my next role. I'm currently exploring new opportunities and would appreciate it if you might be open to providing a referral. My resume can be found here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:24:09.919Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/utkarsh729/",
+    "name": "Utkarsh Singh",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:11.422Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/abhishek-kumar-yadav-36b220320/",
+    "name": "Abhishek Kumar yadav",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:11.423Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/devendrasuryavanshi/",
+    "name": "Devendra Suryavanshi",
+    "eligible": false,
+    "message": "I am unable to generate a personalized message because this person's experience does not meet the criteria.",
+    "processedAt": "2025-08-15T05:24:12.434Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/eyob-wasihun-62108a304/",
+    "name": "Eyob Wasihun",
+    "eligible": false,
+    "message": "Unfortunately, I cannot recommend this individual for a referral request.",
+    "processedAt": "2025-08-15T05:24:14.850Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/itsyournish/",
+    "name": "Deorshi Nishant",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:32.437Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/sonu-kumar-01b90821a/",
+    "name": "Sonu Kumar",
+    "eligible": false,
+    "message": "",
+    "processedAt": "2025-08-15T05:24:33.941Z",
+    "reason": "no_experience"
+  },
+  {
+    "url": "https://www.linkedin.com/in/aman-kumar-agarwal-32397726b/",
+    "name": "Aman Kumar Agarwal",
+    "eligible": false,
+    "message": "I'm sorry, but Aman Kumar Agarwal does not meet the criteria for a referral request based on your requirements.",
+    "processedAt": "2025-08-15T05:24:34.943Z",
+    "reason": "not_suitable"
+  },
+  {
+    "url": "https://www.linkedin.com/in/darshdeep-singh-599906190/",
+    "name": "Darshdeep Singh",
+    "eligible": true,
+    "message": "Hi Darshdeep, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience at Airtel Payments Bank and Freecharge. I'm currently exploring new opportunities and would appreciate it if you could refer me to any relevant roles. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:25:30.768Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/tereza-tomaskova/",
+    "name": "Tereza Tomášková",
+    "eligible": true,
+    "message": "Hi Tereza, I'm Manish, a Software Developer at GunMade, a US-based startup. I noticed your experience at Česká spořitelna and Generali Česká pojišťovna. I'm exploring new opportunities and was hoping you might be open to providing a referral if a suitable role comes to mind at either company or your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:25:33.678Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/akash-kumar-srivastava-50b52511a/",
+    "name": "Akash Kumar Srivastava",
+    "eligible": true,
+    "message": "Hi Akash, I'm Manish, a Software Developer at GunMade, a US-based startup. I noticed you're a Software Engineer Lead at Optum, and I'm currently exploring new opportunities. I'd love to connect and discuss potential referral opportunities at Optum or other companies you think might be a good fit. My resume is available here: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:25:36.449Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/victoria-marko/",
+    "name": "Victoria Marko",
+    "eligible": true,
+    "message": "Hi Victoria, I'm Manish, a Software Developer at GunMade, a US-based startup. I came across your profile and noticed your experience in helping companies find JavaScript talent. I'm actively exploring new opportunities and would appreciate it if you could potentially refer me to any relevant openings you're aware of. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:25:39.377Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/nazarii-krukovskyi-7a1a2b67/",
+    "name": "Nazarii Krukovskyi",
+    "eligible": true,
+    "message": "Hi Nazarii, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your extensive experience in front-end development with React and Next. I'm also a front-end engineer and am currently exploring new opportunities. Would you be open to a quick chat? I've attached my resume for your review: https://bit.ly/4fpoxd5 Thanks!",
+    "processedAt": "2025-08-15T05:28:09.964Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/bc-barbora-u%C5%99i%C4%8D%C3%A1%C5%99ov%C3%A1-a894a5b1/",
+    "name": "Bc. Barbora Uřičářová",
+    "eligible": true,
+    "message": "Hi Barbora, I'm Manish, a Software Developer at GunMade. I'm exploring new opportunities and noticed your experience. Would you be open to a quick chat about your career path? I'm particularly interested in learning more about your experience. My resume is available here: https://bit.ly/4fpoxd5",
+    "processedAt": "2025-08-15T05:28:12.869Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/niharika-agarwal-765835146/",
+    "name": "Niharika Agarwal",
+    "eligible": true,
+    "message": "Hi Niharika, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience as a Lead Software Engineer at Freecharge and previously at Amazon. I'm currently exploring new opportunities and would love to connect and see if you might be able to provide a referral. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:28:15.946Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/yevhenii-voronin-kyiv/",
+    "name": "Voronin Yevhenii",
+    "eligible": true,
+    "message": "Hi Voronin Yevhenii, I'm Manish, a Software Developer at GunMade. I came across your profile and noticed your experience as a Fullstack developer with React and Node, which aligns with my skillset. I'm actively exploring new opportunities and would appreciate it if you'd be open to a quick chat about potential openings at your company or any insights you might have. Here's my resume: https://bit.ly/4fpoxd5. Thanks!",
+    "processedAt": "2025-08-15T05:28:19.121Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/%C5%A1imon-karel-h-909630114/",
+    "name": "Šimon - Karel H.",
+    "eligible": true,
+    "message": "Hi Šimon - Karel, I'm Manish, a Software Developer at GunMade, a remote US-based startup. I came across your profile and noticed your experience at Microsoft and Generali. I'm currently exploring new opportunities and would appreciate it if you could refer me to any suitable roles within your network. My resume is available here: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:28:53.843Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/karla-kyjonkov%C3%A1-045288175/",
+    "name": "Karla Kyjonková",
+    "eligible": true,
+    "message": "Hi Karla, I hope this message finds you well. My name is Manish, and I'm a Software Developer at GunMade, a remote US-based startup. I'm currently exploring new opportunities and noticed your extensive experience at ČSOB. I was hoping to connect and see if you might know of any relevant openings in your network or at ČSOB, or if you have any advice for someone looking to transition into a role closer to your field. My resume is available here: https://bit.ly/4fpoxd5. Thank you for your time and consideration!",
+    "processedAt": "2025-08-15T05:28:57.107Z",
+    "reason": "eligible"
+  },
+  {
+    "url": "https://www.linkedin.com/in/leybuk-galin/",
+    "name": "Leybuk-Galin Mihail",
+    "eligible": true,
+    "message": "Hi Leybuk-Galin, I'm Manish, a Software Developer at GunMade. I came across your profile and was impressed with your experience in frontend development, especially with Vue and React. I'm currently exploring new opportunities and would appreciate the chance to connect and discuss potential referrals at your company or others in your network. Here's a link to my resume: https://bit.ly/4fpoxd5. Thanks for your time and consideration!",
+    "processedAt": "2025-08-15T05:29:00.086Z",
+    "reason": "eligible"
+  }
+]
