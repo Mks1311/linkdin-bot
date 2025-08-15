@@ -86,6 +86,119 @@ function getRandomDelay(min = MIN_DELAY, max = MAX_DELAY) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+// Function to test scraping a single profile
+async function testSingleProfile(profileUrl) {
+  console.log(`🧪 Testing single profile scraping: ${profileUrl}\n`);
+  
+  // Check if profile already exists in scraped data
+  const existingProfiles = loadJSON(OUTPUT_FILE);
+  const existingProfile = existingProfiles.find(p => p.url === profileUrl);
+  
+  if (existingProfile) {
+    console.log(`⚠️ This profile was already scraped:`);
+    console.log(`👤 Name: ${existingProfile.name}`);
+    console.log(`📝 Headline: ${existingProfile.headline}`);
+    console.log(`💼 Experience entries: ${existingProfile.experience.length}`);
+    console.log('----------------------\n');
+    
+    const readline = require('readline');
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+    
+    const answer = await new Promise(resolve => {
+      rl.question('Do you want to re-scrape this profile? (y/N): ', resolve);
+    });
+    rl.close();
+    
+    if (answer.toLowerCase() !== 'y' && answer.toLowerCase() !== 'yes') {
+      console.log('⏭️ Skipping re-scraping');
+      return;
+    }
+  }
+
+  const browser = await puppeteer.launch({
+    headless: false,
+    defaultViewport: null,
+    args: ['--start-maximized']
+  });
+
+  const page = await browser.newPage();
+
+  // Set a realistic user-agent
+  await page.setUserAgent(
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+  );
+
+  try {
+    console.log('🔐 Logging into LinkedIn...');
+    await loginLinkedIn(page);
+    
+    console.log('⏳ Waiting 30 seconds for potential CAPTCHA/2FA...');
+    await setTimeout(30000);
+
+    console.log('🔍 Scraping profile...');
+    const scrapedProfile = await scrapeProfile(page, profileUrl);
+
+    if (scrapedProfile) {
+      console.log('\n✅ SCRAPING SUCCESSFUL!');
+      console.log('----------------------');
+      console.log(`👤 Name: ${scrapedProfile.name}`);
+      console.log(`📝 Headline: ${scrapedProfile.headline}`);
+      console.log(`💼 Experience entries: ${scrapedProfile.experience.length}`);
+      
+      if (scrapedProfile.experience.length > 0) {
+        console.log(`📋 Experience details:`);
+        scrapedProfile.experience.forEach((exp, index) => {
+          console.log(`   ${index + 1}. ${exp}`);
+        });
+      }
+      console.log('----------------------\n');
+
+      // Ask if user wants to save the result
+      const readline = require('readline');
+      const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+      });
+      
+      const saveAnswer = await new Promise(resolve => {
+        rl.question('Do you want to save this scraped profile? (y/N): ', resolve);
+      });
+      rl.close();
+      
+      if (saveAnswer.toLowerCase() === 'y' || saveAnswer.toLowerCase() === 'yes') {
+        let profiles = loadJSON(OUTPUT_FILE);
+        
+        // Remove existing entry if re-scraping
+        profiles = profiles.filter(p => p.url !== profileUrl);
+        
+        // Add the new/updated profile
+        profiles.push(scrapedProfile);
+        saveJSON(OUTPUT_FILE, profiles);
+        
+        console.log(`💾 Profile saved to ${OUTPUT_FILE}`);
+        console.log(`📊 Total profiles in file: ${profiles.length}`);
+      } else {
+        console.log(`⏭️ Profile not saved`);
+      }
+    } else {
+      console.log('\n❌ SCRAPING FAILED');
+      console.log('Could not extract profile data. Please check if:');
+      console.log('- The URL is accessible');
+      console.log('- You are properly logged in');
+      console.log('- The profile is not private/restricted');
+    }
+
+  } catch (error) {
+    console.error(`❌ Error during scraping:`, error.message);
+  } finally {
+    await browser.close();
+    console.log('🔒 Browser closed');
+  }
+}
+
 async function main() {
   const allUrls = loadJSON(INPUT_FILE);
   const existingProfiles = loadJSON(OUTPUT_FILE);
@@ -130,4 +243,32 @@ async function main() {
   await browser.close();
 }
 
-main().catch(console.error);
+// Check command line arguments to determine which function to run
+const args = process.argv.slice(2);
+
+if (args.length > 0) {
+  if (args[0] === '--test' && args[1]) {
+    // Test single profile: node scraper.js --test "profile_url"
+    testSingleProfile(args[1]).catch(console.error);
+  } else if (args[0] === '--help' || args[0] === '-h') {
+    console.log(`
+📋 LinkedIn Scraper Usage:
+  node profileScrapper.js                    - Scrape profiles from connections.json
+  node profileScrapper.js --test <URL>       - Test scraping single profile by URL
+  node profileScrapper.js --help            - Show this help message
+
+📖 Examples:
+  node profileScrapper.js --test "https://linkedin.com/in/johndoe"
+
+⚠️  Requirements:
+  - Set LINKEDIN_EMAIL and LINKEDIN_PASSWORD in .env file
+  - Have connections.json file for batch processing
+    `);
+  } else {
+    console.log(`❌ Unknown argument: ${args[0]}`);
+    console.log(`Use --help for usage information`);
+  }
+} else {
+  // Default behavior: scrape all profiles
+  main().catch(console.error);
+}

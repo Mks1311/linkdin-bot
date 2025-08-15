@@ -190,7 +190,6 @@ async function processProfiles() {
         
         processed++;
         console.log(`📊 Progress: ${processed} processed, ${eligible} eligible, ${skipped} already done`);
-        console.log(` Left ${profiles.length - processed}`)
         console.log('----------------------\n');
 
         // Add delay between requests to avoid rate limiting
@@ -205,4 +204,140 @@ async function processProfiles() {
     console.log(`   - Total profiles: ${profiles.length}`); 
 }
 
-processProfiles().catch(console.error);
+// Function to test a single profile by URL
+async function testSingleProfile(profileUrl) {
+    console.log(`🧪 Testing single profile: ${profileUrl}\n`);
+    
+    // Find the profile in the scraped data
+    const profile = profiles.find(p => p.url === profileUrl);
+    
+    if (!profile) {
+        console.error(`❌ Profile not found in scraped_profiles.json: ${profileUrl}`);
+        console.log(`💡 Available profiles: ${profiles.length}`);
+        return;
+    }
+
+    console.log(`👤 Found profile: ${profile.name}`);
+    console.log(`📝 Headline: ${profile.headline}`);
+    console.log(`💼 Experience entries: ${profile.experience.length}`);
+    console.log('----------------------\n');
+
+    // Check if already processed
+    const alreadyProcessed = processedProfiles.find(p => p.url === profileUrl);
+    if (alreadyProcessed) {
+        console.log(`⚠️ This profile was already processed on ${alreadyProcessed.processedAt}`);
+        console.log(`📊 Previous result: ${alreadyProcessed.eligible ? 'ELIGIBLE' : 'NOT ELIGIBLE'} (${alreadyProcessed.reason})`);
+        if (alreadyProcessed.message) {
+            console.log(`📨 Previous message:\n${alreadyProcessed.message}`);
+        }
+        console.log('----------------------\n');
+        
+        const readline = require('readline');
+        const rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout
+        });
+        
+        const answer = await new Promise(resolve => {
+            rl.question('Do you want to reprocess this profile? (y/N): ', resolve);
+        });
+        rl.close();
+        
+        if (answer.toLowerCase() !== 'y' && answer.toLowerCase() !== 'yes') {
+            console.log('⏭️ Skipping reprocessing');
+            return;
+        }
+    }
+
+    // Check blacklisted companies
+    if (isBlacklisted(profile)) {
+        console.log(`⛔ Profile contains blacklisted company`);
+        console.log(`📊 Result: NOT ELIGIBLE (blacklisted)`);
+        return;
+    }
+
+    // Check for no experience
+    if (profile.experience.length === 0) {
+        console.log(`❌ Profile has no experience listed`);
+        console.log(`📊 Result: NOT ELIGIBLE (no_experience)`);
+        return;
+    }
+
+    console.log(`🤖 Analyzing profile with Gemini AI...`);
+    
+    try {
+        const result = await askGemini(profile);
+        
+        console.log('----------------------');
+        if (result.referal) {
+            console.log(`✅ RESULT: ELIGIBLE FOR REFERRAL`);
+            console.log(`📨 Generated message:`);
+            console.log(`"${result.message}"`);
+        } else {
+            console.log(`❌ RESULT: NOT SUITABLE FOR REFERRAL`);
+        }
+        console.log('----------------------\n');
+
+        // Ask if user wants to save the result
+        const readline = require('readline');
+        const rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout
+        });
+        
+        const saveAnswer = await new Promise(resolve => {
+            rl.question('Do you want to save this result? (y/N): ', resolve);
+        });
+        rl.close();
+        
+        if (saveAnswer.toLowerCase() === 'y' || saveAnswer.toLowerCase() === 'yes') {
+            const profileData = {
+                url: profile.url,
+                name: profile.name,
+                eligible: result.referal,
+                message: result.message,
+                processedAt: new Date().toISOString(),
+                reason: result.referal ? 'eligible' : 'not_suitable'
+            };
+
+            // Remove existing entry if reprocessing
+            let currentData = JSON.parse(fs.readFileSync(referralFilePath));
+            currentData = currentData.filter(p => p.url !== profileUrl);
+            
+            currentData.push(profileData);
+            fs.writeFileSync(referralFilePath, JSON.stringify(currentData, null, 2));
+            console.log(`💾 Result saved to ${referralFilePath}`);
+        } else {
+            console.log(`⏭️ Result not saved`);
+        }
+
+    } catch (error) {
+        console.error(`❌ Error processing profile:`, error.message);
+    }
+}
+
+// Check command line arguments to determine which function to run
+const args = process.argv.slice(2);
+
+if (args.length > 0) {
+    if (args[0] === '--test' && args[1]) {
+        // Test single profile: node referralChecker.js --test "profile_url"
+        testSingleProfile(args[1]).catch(console.error);
+    } else if (args[0] === '--help' || args[0] === '-h') {
+        console.log(`
+📋 Usage:
+  node referralChecker.js                    - Process all profiles
+  node referralChecker.js --test <URL>       - Test single profile by URL
+  node referralChecker.js --help            - Show this help message
+
+📖 Examples:
+  node script.js --test "https://linkedin.com/in/johndoe"
+        `);
+    } else {
+        console.log(`❌ Unknown argument: ${args[0]}`);
+        console.log(`Use --help for usage information`);
+    }
+} else {
+    // Default behavior: process all profiles
+    processProfiles().catch(console.error);
+}
